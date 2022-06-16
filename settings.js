@@ -21,18 +21,18 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['62895369318181']
-global.premium = ['62895369318181']
-global.ownernomer = '62895369318181'
-global.ownername = 'Koleksibot X You🔥'
-global.botname = 'REDHATBOT CLOUD 🤖'
-global.footer = 'By rootsec.xyz'
-global.ig = 'https://github.com/koleksibot'
-global.region = 'Aku Iki Wong Jowo Soko Indonesia'
-global.sc = 'https://github.com/koleksibot'
-global.myweb = 'https://wa.me/62895369318181'
+global.owner = ['6282268833091']
+global.premium = ['6282268833091']
+global.ownernomer = '6282268833091'
+global.ownername = 'AXLINESID_BOT🔥'
+global.botname = 'AXLINESID_BOT 🤖'
+global.footer = 'By axlinesid.com'
+global.ig = 'https://axlinesid.com'
+global.region = 'PekanBaru-Indonesia'
+global.sc = 'https://axlinesid.com'
+global.myweb = 'https://axlinesid.com'
 global.packname = 'Di Buat Untuk Mu'
-global.author = 'By Koleksibot'
+global.author = 'By axlinesid.com'
 global.sessionName = 'asif615'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
@@ -50,7 +50,7 @@ global.mess = {
 }
     global.limitawal = {
     premium: "Infinity",
-    free: 10000,
+    free: 28684,
     monayawal: 1000
 }
    global.rpg = {
