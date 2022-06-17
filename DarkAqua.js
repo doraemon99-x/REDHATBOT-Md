@@ -208,11 +208,11 @@ module.exports = DarkBotInc = async (DarkBotInc, m, chatUpdate, store) => {
 	
 	//group target by dark\\
 const reply = (teks) => {
-            DarkBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./DarkMedia/Darkaquapic.jpg`),"sourceUrl": "https://axlinesid.com/"}}}, { quoted: m})
+            DarkBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`https://event.axlinesid.com/DarkMedia/Darkaquapic.jpg`),"sourceUrl": "https://axlinesid.com/"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            DarkBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./DarkMedia/Darkaquapic.jpg`),"sourceUrl": "https://axlinesid.com/"}}}, { quoted: m})
+            DarkBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`https://event.axlinesid.com/DarkMedia/Darkaquapic.jpg`),"sourceUrl": "https://axlinesid.com/"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -3286,7 +3286,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/Darkaquapic.jpg')},
+                            jpegThumbnail: fs.readFileSync('https://event.axlinesid.com/DarkMedia/Darkaquapic.jpg')},
                             hydratedFooterText: `┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
@@ -3346,7 +3346,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/Darkaquapic.jpg')}, 
+                            jpegThumbnail: fs.readFileSync('https://event.axlinesid.com/DarkMedia/Darkaquapic.jpg')}, 
                             hydratedFooterText: `
 ┌─❖
 │「 Hi 👋 」
@@ -3775,7 +3775,7 @@ case 'allmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/Darkaquapic.jpg')},
+                            jpegThumbnail: fs.readFileSync('https://event.axlinesid.com/DarkMedia/Darkaquapic.jpg')},
                             hydratedFooterText: `${pushname}`,
                             hydratedButtons: [{
                                 urlButton: {
